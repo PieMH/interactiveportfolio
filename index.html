@@ -44,23 +44,27 @@
 </section>
 
 <!-- Easter Eggs -->
-<div class="easter-egg" style="top: 40%; left: 10%; z-index: 10;" onclick="triggerEasterEgg(1)"></div>
-<div class="easter-egg" style="top: 142%; right: 30%; z-index: 10;" onclick="triggerEasterEgg(2)"></div>
-<div class="easter-egg" style="top: 306%; left: 49.5%; z-index: 10;" onclick="triggerEasterEgg(3)"></div>
-<div class="easter-egg" style="top: 417%; left: 2%; z-index: 10;" onclick="triggerEasterEgg(3)"></div>
-<div class="easter-egg" style="top: 554%; left: 50%; z-index: 10;" onclick="triggerEasterEgg(3)"></div>
+<div class="easter-egg" style="top: 50%; left: 10%; z-index: 10;" onclick="triggerEasterEgg(1)"></div>
+<div class="easter-egg" style="top: 138%; right: 28%; z-index: 10;" onclick="triggerEasterEgg(2)"></div>
+<div class="easter-egg" style="top: 306%; left: 4%; z-index: 10;" onclick="triggerEasterEgg(3)"></div>
+<div class="easter-egg" style="top: 455%; right: 5%; z-index: 10;" onclick="triggerEasterEgg(3)"></div>
+<div class="easter-egg" style="top: 645%; left: 10%; z-index: 10;" onclick="triggerEasterEgg(3)"></div>
 
 <!-- About Section -->
 <section class="section" id="about">
     <h2 class="section-title">Level 1: About Me</h2>
     <div class="about-content">
         <p>
-            I'm a passionate, curious, and open-minded developer currently working at Ringmaster Reply as a Game Developer.
-            In my work life I have also covered the roles of Android mobile developer and web developer.
+            I'm a passionate, curious, and open-minded developer currently working at Ringmaster Reply as a Game Developer and Software Engineer.
+        </p>
+        <p>
+            I have a Bachelor's Degree in Computer Science Engineering from the University of Rome "Sapienza", where I specialized in Software Engineering and Game Development.
         </p>
         <p>
             I love games in general, from social ones, to tabl-top games to video games. Also, passionate about technology, physics, maths, cars, motorsport, and nature.
-            Currently leading the development of LabyrAInth, a game I invented and directed with the help of other twelve colleagues.
+        </p>
+        <p>
+            Currently leading the development of LABYRAINTH, a game I invented and directed with the help of other twelve colleagues.
         </p>
     </div>
 </section>
@@ -74,17 +78,17 @@
         <div class="main-project-card" onclick="openModal('labyrainth')"
              style="background-image: url('Assets/PortfolioProjects/LabyrAInth/Run_to_Portal.gif');">
             <div class="main-card-overlay">
-                <h3 class="project-title">LabyrAInth</h3>
+                <h3 class="project-title">LABYRAINTH</h3>
                 <p class="project-description">
                     My main game project that I directed from start to finish.
-                    A scifi FPS arcade maze runner game for VR and PC with online leaderboards.
+                    A scifi FPS roguelite maze runner game for PC, VR and mobile devices, with online leaderboards.
                     Now on Steam!
                 </p>
                 <div class="project-tech">
                     <span class="tech-tag">Unreal Engine 5</span>
                     <span class="tech-tag">C++</span>
                     <span class="tech-tag">VR</span>
-                    <span class="tech-tag">AI</span>
+                    <span class="tech-tag">Game design</span>
                 </div>
             </div>
         </div>
@@ -158,15 +162,7 @@
             <span class="skill-icon">🎮</span>
             <div class="skill-name">Game Development</div>
             <div class="skill-level">
-                <div class="skill-progress" style="width: 85%;"></div>
-            </div>
-        </div>
-
-        <div class="skill-node" onclick="levelUpSkill(this, 70)">
-            <span class="skill-icon">🥽</span>
-            <div class="skill-name">VR/AR Development</div>
-            <div class="skill-level">
-                <div class="skill-progress" style="width: 70%;"></div>
+                <div class="skill-progress" style="width: 90%;"></div>
             </div>
         </div>
 
@@ -182,15 +178,15 @@
             <span class="skill-icon">💻</span>
             <div class="skill-name">C++ Programming</div>
             <div class="skill-level">
-                <div class="skill-progress" style="width: 75%;"></div>
+                <div class="skill-progress" style="width: 70%;"></div>
             </div>
         </div>
 
-        <div class="skill-node" onclick="levelUpSkill(this, 50)">
-            <span class="skill-icon">📱</span>
-            <div class="skill-name">Android Development</div>
+        <div class="skill-node" onclick="levelUpSkill(this, 70)">
+            <span class="skill-icon">🥽</span>
+            <div class="skill-name">VR/AR Development</div>
             <div class="skill-level">
-                <div class="skill-progress" style="width: 50%;"></div>
+                <div class="skill-progress" style="width: 60%;"></div>
             </div>
         </div>
 
@@ -198,7 +194,15 @@
             <span class="skill-icon">🌐</span>
             <div class="skill-name">Web Development</div>
             <div class="skill-level">
-                <div class="skill-progress" style="width: 60%;"></div>
+                <div class="skill-progress" style="width: 50%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-node" onclick="levelUpSkill(this, 50)">
+            <span class="skill-icon">📱</span>
+            <div class="skill-name">Android Development</div>
+            <div class="skill-level">
+                <div class="skill-progress" style="width: 40%;"></div>
             </div>
         </div>
     </div>
@@ -212,8 +216,8 @@
             <div class="health-bar" id="bossHealth"></div>
         </div>
         <p style="font-size: 1.2rem; margin-bottom: 20px; color: var(--text-gray);">
-            Shoot the following buttons to damage the boss and to get in touch with me!
-            Contact me if you are looking to hire a game developer, or if you want to collaborate on a project, or if you just want to chat about games, technology, or anything else!
+            Shoot the following buttons to get in touch with me, deplete this health bar!
+            Contact me if you are looking to hire a game developer, or if you want to collaborate on a project, or if you just want to chat!
         </p>
         <div class="contact-buttons">
             <a href="mailto:pdondiw@gmail.com" class="contact-btn" onclick="damageBoss()">📧 Email Shoot</a>

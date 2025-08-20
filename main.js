@@ -114,22 +114,22 @@ playSound('click');
 // Project modal system with media support
 const projectData = {
     'labyrainth': {
-        title: 'LabyrAInth',
-        description: `LabyrAInth is a blend of new ideas and technologies put together with some imagination, using Unreal Engine 5 and C++, combining AI with VR, and arcade games with maze exploration.
+        title: 'LABYRAINTH',
+        description: `LABYRAINTH is a blend of new ideas and technologies put together with some imagination, using Unreal Engine 5 and C++, combining AI with VR, and arcade games with maze exploration.
 
             Features of the game:
-            • FPS arcade scifi game set in a dark alien world made of labyrinths
+            • FPS arcade roguelite scifi game set in a dark alien world made of labyrinths
             • Play solo but participate in online leaderboards thanks to an asynchronous multiplayer system
-            • For both PC and VR platforms
+            • For both PC, VR and mobile platforms
             • Escape the mazes in the shortest time while fighting aliens, avoiding traps and activating powers
-            • 3 main game modes: offline story, infinite mode, ranked mode
+            • 5 main game modes: Story, Infinite, Ranked, Survival, Creative
 
             I am the lead developer of this project, responsible for the technical architecture, game mechanics, and VR integration.
             I developed this game while working at my current company on other projects as well.
             As the game leader I was responsible of managing the team ensuring the overall quality of the game was met.
             I have also overlooked the marketing and the community management aspects of the game, ensuring a successful launch and ongoing player engagement.`,
         media: [
-            { type: 'youtube', url: 'r4BWgZSQWUE', title: 'LabyrAInth Gameplay Trailer' },
+            { type: 'youtube', url: 'r4BWgZSQWUE', title: 'Gameplay Trailer' },
             { type: 'youtube', url: 'vm6A02JP5Ec', title: 'Cinematic Story trailer' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/Walk1.gif', title: 'Walk gif' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/Run_to_Portal.gif', title: 'Run to Portal gif' },
