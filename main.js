@@ -120,32 +120,40 @@ const projectData = {
             Features of the game:
             • FPS arcade roguelite scifi game set in a dark alien world made of labyrinths
             • Play solo but participate in online leaderboards thanks to an asynchronous multiplayer system
-            • For both PC, VR and mobile platforms
+            • For both PC, VR decivices
             • Escape the mazes in the shortest time while fighting aliens, avoiding traps and activating powers
             • 5 main game modes: Story, Infinite, Ranked, Survival, Creative
 
-            I am the lead developer of this project, responsible for the technical architecture, game mechanics, and VR integration.
+            I am the lead developer of this project, responsible for the game design, the technical architecture, the game mechanics, and the VR integration.
             I developed this game while working at my current company on other projects as well.
             As the game leader I was responsible of managing the team ensuring the overall quality of the game was met.
-            I have also overlooked the marketing and the community management aspects of the game, ensuring a successful launch and ongoing player engagement.`,
+            I have also overlooked the marketing and the community management aspects of the game, ensuring a successful launch and ongoing player engagement.
+            We officially released the game on Steam the 31st of October 2025.`,
         media: [
-            { type: 'youtube', url: 'r4BWgZSQWUE', title: 'Gameplay Trailer' },
-            { type: 'youtube', url: 'vm6A02JP5Ec', title: 'Cinematic Story trailer' },
+            { type: 'youtube', url: 'XcqDjeTV7TE', title: 'Gameplay Trailer' },
+            { type: 'youtube', url: 'yNO7C4TddEk', title: 'Cinematic Story trailer' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/Walk1.gif', title: 'Walk gif' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/Run_to_Portal.gif', title: 'Run to Portal gif' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/Boss.gif', title: 'Aliens gif' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/VR.gif', title: 'VR gif' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/Labyrinths.gif', title: 'Labyrinths gif' },
             { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/wep_cust_syst.gif', title: 'Weapon Inventory gif' },
-            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/home_page.png', title: 'Game Screenshots' },
-            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/planet.jpg', title: 'Game Screenshots' },
-            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/explosion.jpg', title: 'Game Screenshots' },
-            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/fire.jpg', title: 'Game Screenshots' },
-            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/damage.jpg', title: 'Game Screenshots' },
-            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/exit_portal.png', title: 'Game Screenshots' },
-            { type: 'youtube', url: '5__ul8nHqNU', title: 'Teaser trailer' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/mazes.png', title: 'Maze' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/portal.png', title: 'Portal' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/space.png', title: 'Space' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/enemy.png', title: 'Enemy' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/explosion.png', title: 'Explosion' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/damage.png', title: 'Damaged' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/weapon.png', title: 'Weapon' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/bomb.png', title: 'Bomb trap' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/whitehole.png', title: 'White Hole trap' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/laser.png', title: 'Laser trap' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/die.png', title: 'Death' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/powerup.png', title: 'Power Up' },
+            { type: 'image', url: 'Assets/PortfolioProjects/LabyrAInth/planet.png', title: 'Planet' },
+            { type: 'youtube', url: 'TF1v-1nuZSI', title: 'Teaser trailer' },
         ],
-        tech: ['Unreal Engine 5', 'C++', 'Blueprint', 'VR', 'AI', 'Steam', 'Team management', 'Community management', 'Marketing']
+        tech: ['Unreal Engine 5', 'C++', 'Blueprint', 'Game Design', 'VR', 'AI', 'Steam', 'Video production', 'Team management', 'Community management', 'Marketing']
     },
     'metarace': {
         title: 'Metarace',
