@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(git *)",
+      "Bash(rtk git *)",
+      "Bash(node *)",
+      "Bash(npm install*)",
+      "Bash(npm ci*)",
+      "Bash(npm run *)",
+      "Bash(npx tsc*)",
+      "Bash(npx vite*)",
+      "Bash(npx lighthouse*)",
+      "Bash(npx http-server*)",
+      "Bash(npx impeccable *)",
+      "Bash(rtk node *)",
+      "Bash(rtk npm *)",
+      "Bash(rtk npx *)"
+    ],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(rtk git push*)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(rtk git push --force*)",
+      "Bash(rtk git push -f*)",
+      "Bash(rm -rf *)",
+      "Bash(rtk rm -rf *)",
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/*.pem)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__Claude_Browser__preview_start",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"additionalContext\":\"PRE-QA GATE (project rule): a preview server is about to serve a build. If the current code has not passed the pre-qa skill checklist IN THIS SESSION (typecheck; double fresh-reload per page; click-through asserting visible state changes; overlay audit by computed style at both widths; zero failed resources on current load; 375/768/desktop sweep; full locale+sound cycles; reduced-motion load), run the pre-qa skill BEFORE presenting anything. Never showcase an unverified build.\"}}'"
+          }
+        ]
+      }
+    ]
+  }
+}
