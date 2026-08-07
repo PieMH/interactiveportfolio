@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="FindAJob four-agent pipeline diagram">
+  <defs>
+    <filter id="glow2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2a4c56"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#2a4c56" stroke-width="1.5">
+    <rect x="60" y="200" width="150" height="100" rx="12"/>
+    <path d="M210 250 H290" marker-end="url(#arr)"/>
+    <path d="M290 250 C330 250 330 110 370 110" marker-end="url(#arr)"/>
+    <path d="M290 250 C330 250 330 205 370 205" marker-end="url(#arr)"/>
+    <path d="M290 250 C330 250 330 300 370 300" marker-end="url(#arr)"/>
+    <path d="M290 250 C330 250 330 395 370 395" marker-end="url(#arr)"/>
+    <rect x="370" y="80" width="200" height="60" rx="10"/>
+    <rect x="370" y="270" width="200" height="60" rx="10"/>
+    <rect x="370" y="365" width="200" height="60" rx="10"/>
+    <path d="M570 110 C630 110 630 250 690 252 M570 205 H688 M570 300 C630 300 630 254 688 254 M570 395 C630 395 630 258 690 256" opacity="0.6"/>
+    <circle cx="706" cy="254" r="16"/>
+    <path d="M700 254 l4 5 l8 -10" stroke="#7dffb0"/>
+  </g>
+  <g fill="none" stroke="#71efff" stroke-width="2" filter="url(#glow2)">
+    <rect x="370" y="175" width="200" height="60" rx="10"/>
+  </g>
+  <g font-family="monospace" font-size="15" fill="#5f8f9c">
+    <text x="86" y="240">job boards</text>
+    <text x="86" y="262">parse · filter</text>
+    <text x="392" y="115">agent 1 · analyze</text>
+    <text x="392" y="305">agent 3 · letter</text>
+    <text x="392" y="400">agent 4 · outreach</text>
+    <text x="620" y="212" fill="#5f8f9c" font-size="13">human sends</text>
+  </g>
+  <text x="392" y="210" font-family="monospace" font-size="15" fill="#71efff">agent 2 · resume ATS</text>
+  <text x="60" y="60" font-family="monospace" font-size="17" fill="#71efff">FindAJob — n8n + TypeScript</text>
+</svg>

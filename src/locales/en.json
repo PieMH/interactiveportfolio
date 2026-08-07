@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "title": "Pietro Dondi — Game Developer",
+    "description": "Interactive portfolio of Pietro Dondi: Unreal Engine 5, VR/AR, web games and AI automations. LabyrAInth on Steam."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "sound": "Sound effects",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off",
+    "language": "Language",
+    "close": "Close",
+    "prev": "Previous media",
+    "next": "Next media",
+    "openProject": "Open project details"
+  },
+  "hero": {
+    "title": "Hi, I'm Pietro Dondi",
+    "subtitle": "Game Developer & Full-Time Dreamer",
+    "description": "Crafting immersive experiences with Unreal Engine 5, VR/AR magic, and endless creativity. Welcome to my interactive web portfolio.",
+    "cue": "Discover more about me"
+  },
+  "about": {
+    "p1": "I'm a passionate, curious, and open-minded developer currently working at Ringmaster Reply as a Game Developer and Software Engineer.",
+    "p2": "I have a Bachelor's Degree in Computer Science Engineering from the University of Rome \"Sapienza\", where I specialized in Software Engineering and Game Development.",
+    "p3": "I love games in general, from social ones, to table-top games to video games. Also, passionate about technology, physics, maths, cars, motorsport, and nature.",
+    "p4": "Currently leading the development of Labyrinth, a game that I invented, and I am directing with a team of twelve game developers. We released this game on Steam the 31st of October 2025."
+  },
+  "projects": {
+    "labyrainth": {
+      "title": "LABYRAINTH",
+      "blurb": "My main game project that I directed from start to finish. A scifi FPS roguelite maze runner game for PC and VR devices, with online leaderboards. Released on Steam!",
+      "desc": "LABYRAINTH is a blend of new ideas and technologies put together with some imagination, using Unreal Engine 5 and C++, combining AI with VR, and arcade games with maze exploration.\n\nFeatures of the game:\n• FPS arcade roguelite scifi game set in a dark alien world made of labyrinths\n• Play solo but participate in online leaderboards thanks to an asynchronous multiplayer system\n• For both PC and VR devices\n• Escape the mazes in the shortest time while fighting aliens, avoiding traps and activating powers\n• 5 main game modes: Story, Infinite, Ranked, Survival, Creative\n\nI am the lead developer of this project, responsible for the game design, the technical architecture, the game mechanics, and the VR integration.\nI developed this game while working at my current company on other projects as well.\nAs the game leader I was responsible for managing the team, ensuring the overall quality of the game was met.\nI have also overseen the marketing and the community management aspects of the game, ensuring a successful launch and ongoing player engagement.\nWe officially released the game on Steam the 31st of October 2025.",
+      "media": [
+        "Gameplay Trailer",
+        "Cinematic Story trailer",
+        "Walk gif",
+        "Run to Portal gif",
+        "Aliens gif",
+        "VR gif",
+        "Labyrinths gif",
+        "Weapon Inventory gif",
+        "Maze",
+        "Portal",
+        "Space",
+        "Enemy",
+        "Explosion",
+        "Damaged",
+        "Weapon",
+        "Bomb trap",
+        "White Hole trap",
+        "Laser trap",
+        "Death",
+        "Power Up",
+        "Planet",
+        "Teaser trailer"
+      ]
+    },
+    "metarace": {
+      "title": "Metarace",
+      "blurb": "Have you ever wanted to participate in horse races directly while riding a horse in VR?",
+      "desc": "Worked on a horse racing betting game for web3 platforms.\n\nFeatures of the game:\n• Horse racing betting game in 3D within a metaverse environment\n• Oculus VR, OpenXR and Windows Mixed Reality integration\n• Real-time multiplayer betting system with support for cryptocurrencies\n• Customizable horses and tracks\n• Support for NFTs and in-game purchases\n• Stylized low poly art style with a focus on performance and accessibility\n\nThis project was developed as a proof of concept for a potential client, showcasing my ability to create engaging and immersive experiences in the metaverse space.",
+      "media": [
+        "Metarace Demo with Horses",
+        "Metarace Demo with Drakes",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot",
+        "Metarace Screenshot"
+      ]
+    },
+    "metaverse": {
+      "title": "Metaverse Platform",
+      "blurb": "An ambitious metaverse project where multiple 3D and VR games connect through a unified backend framework.",
+      "desc": "An ambitious project that aimed to create a unified metaverse platform integrating multiple 3D online games into a single ecosystem.\n\nKey Features:\n• Multi-game integration with shared user profiles\n• Advanced VR interaction systems\n• Real-time multiplayer capabilities\n• Cross-platform compatibility\n• Dynamic world generation\n• Web3 integration for in-game economies\n\nI contributed to the development of the VR features of the metaverse, focusing on user interaction and adapting UI interaction in VR.\nI also worked on one of the games integrated into the metaverse, a 3D chess game built in Unreal Engine with real-time multiplayer matches and a custom chess engine with support for AI opponents.",
+      "media": [
+        "Metaverse Lobby Demo view",
+        "Lobby Screenshot",
+        "Architecture Overview"
+      ]
+    },
+    "cas": {
+      "title": "Complex Adaptive System and Computational Models",
+      "blurb": "A computational model of an ant nest, simulating the interactions of multiple AI agents that behave like ants.",
+      "desc": "Project for my thesis program at University \"Sapienza\" of Rome, awarded with top grades.\n\nTechnical Implementation:\n• Java computational model simulating ant behaviors\n• Genetic AI algorithms for ant reproduction\n• Data visualization and analysis of ant emergent behaviors\n• Intuitive and interactive user interface design\n\nThis project was backed by intensive studies on complex adaptive systems and especially social complex adaptive systems, and how they can be modeled using computational models.\nThe Java application simulates an ant nest where multiple simple AI agents that behave like ants interact with each other and with the environment, creating complex behaviors and emergent patterns not encoded in the system.",
+      "media": [
+        "CAS live demo",
+        "CAS Schema",
+        "CAS properties",
+        "The computational model of an ant nest"
+      ]
+    },
+    "ostomaze": {
+      "title": "OstoMaze",
+      "blurb": "A pixelart dungeon crawler made with Unity, with the objective to help children with ostomy to learn while having fun.",
+      "desc": "OstoMaze is a simple game I developed for a university project, with two other colleagues, where the goal is to navigate a dungeon while avoiding obstacles and collecting items, that help the character with ostomy to be stronger and gain confidence in itself.\n\nFeatures of the game:\n• A 2D dungeon crawler game with a top-down view\n• Minimalistic RPG mechanics with a focus on exploration and item collection\n• Educational elements about ostomy care and confidence building\n• Simple yet engaging gameplay mechanics\n• Pixelart graphics with a focus on accessibility and inclusivity\n\nThis was my first ever experience in building and designing a video game. I came up with the idea of the game and designed the mechanics, while my colleagues worked on the graphics and animation.\nI was responsible for the sound design, the SFX and VFX of the game and for the level design of the dungeons.\nAn Italian hospital oversaw the competition between multiple teams and awarded us with a prize for the best game, as it was the most fun and easy to play game for little children with ostomy.",
+      "media": [
+        "OstoMaze demo gameplay",
+        "OstoMaze logo",
+        "OstoMaze lobby",
+        "OstoMaze maze dungeon"
+      ]
+    },
+    "webgames": {
+      "title": "Web Development & Web Games",
+      "blurb": "From Vue.js gaming portals to browser games built with Three.js and PlayCanvas — three years of shipping for the web.",
+      "desc": "For three years at Ringmaster Reply I led the front-end work on web gaming portals hosting online prize games. I owned the full front-end lifecycle: gathering requirements from clients, designing the software and its UI/UX, developing, testing, releasing and maintaining it — primarily with Vue.js, JavaScript, HTML and CSS.\n\nRecently I moved into web-based game development itself, building browser games with TypeScript, Three.js, Tween.js and PlayCanvas.\n\nEarlier I also shipped an Android app blending gamification and AR: the phone camera recognizes real-world objects (CameraX + MLKit) and makes them interactive in-app (ARCore), backed by Firebase.\n\nOn the side: a markdown-to-HTML docs generator, static utility sites, and the engine behind this portfolio.",
+      "media": [
+        "Web games — concept sketch"
+      ]
+    },
+    "aiagents": {
+      "title": "AI Automations & Agents",
+      "blurb": "n8n pipelines and autonomous LLM agents — like FindAJob, a 4-agent system that analyzes postings, adapts resumes ATS-proof, and writes custom outreach.",
+      "desc": "FindAJob is an n8n + TypeScript system that parses job platforms, extracts and categorizes every posting, and filters them against custom parameters.\n\nFour AI agents then run asynchronously and autonomously:\n• one analyzes the job\n• one adapts your resume to be ATS-proof for that specific posting\n• one writes a custom cover letter\n• one drafts the outreach message\n\nDeliberately no auto-apply — a human always sends.\n\nI also run AIforBusinesses, an operations hub where AI agents assist a full website-production pipeline — the same system that renovated this very site.",
+      "media": [
+        "FindAJob agent pipeline"
+      ]
+    }
+  },
+  "skills": {
+    "gamedev": "Game Development",
+    "ue5": "Unreal Engine 5",
+    "cpp": "C++ Programming",
+    "vr": "VR/AR Development",
+    "web": "Web Development",
+    "android": "Android Development"
+  },
+  "contact": {
+    "pitch": "Shoot the following buttons to get in touch with me, deplete this health bar! Contact me if you are looking to hire a game developer, or if you want to collaborate on a project, or if you just want to chat!",
+    "buttons": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "resume": "Online Resume",
+      "steam": "LabyrAInth on Steam"
+    }
+  },
+  "boss": {
+    "hit": "Boss damaged! Health: {hp}%",
+    "win": "Boss defeated! Thanks for reaching out!"
+  },
+  "nav": {
+    "hero": "Start",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "cd": {
+    "nav": [
+      "START",
+      "LV.1 ABOUT",
+      "LV.2 PROJECTS",
+      "LV.3 SKILLS",
+      "LV.4 BOSS"
+    ],
+    "eyebrow": {
+      "hero": "LEVEL 0 · START",
+      "about": "LEVEL 1 · ABOUT",
+      "projects": "LEVEL 2 · PROJECTS",
+      "skills": "LEVEL 3 · SKILLS",
+      "contact": "LEVEL 4 · BOSS BATTLE"
+    },
+    "h2": {
+      "about": "WHO IS BEHIND THE SCREEN",
+      "projects": "THINGS I HAVE BUILT",
+      "skills": "STAT SHEET",
+      "contact": "GET IN TOUCH"
+    },
+    "projectsLede": "Open a card for the full description, screenshots, clips and trailers.",
+    "featured": "FEATURED",
+    "openProject": "OPEN PROJECT →",
+    "badge": "ROMA · IT",
+    "releaseChip": "LABYRAINTH · STEAM · OCT 31 2025",
+    "boss": {
+      "name": "BOSS · UNREACHABLE DEVELOPER",
+      "status": "CLICK A CHANNEL TO DEAL DAMAGE",
+      "defeated": "DEFEATED — ALL CHANNELS OPEN",
+      "ready": "READY",
+      "hit": "HIT · −20",
+      "victory": "VICTORY — YOU FOUND EVERY WAY TO REACH ME",
+      "phrase": {
+        "email": "already reading your message…",
+        "linkedin": "connect with me — let's start chatting",
+        "github": "probably pushing something new right now…",
+        "resume": "we could do great work together",
+        "steam": "so… did you like the game?"
+      }
+    },
+    "modal": {
+      "header": "PROJECT FILE",
+      "close": "CLOSE ×"
+    },
+    "footer": {
+      "left": "PIETRO DONDI · ROMA",
+      "right": "GAME DEVELOPER & FULL-TIME DREAMER"
+    }
+  },
+  "footer": {
+    "credits": "Hand-built with TypeScript · No cookies, no tracking"
+  }
+}

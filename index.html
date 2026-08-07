@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Pietro Dondi — Game Developer</title>
+  <meta name="description" content="Interactive portfolio of Pietro Dondi: Unreal Engine 5, VR/AR, web games and AI automations. LabyrAInth on Steam." />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#04060C" />
+  <meta property="og:title" content="Pietro Dondi — Game Developer" />
+  <meta property="og:description" content="Unreal Engine 5 · VR/AR · web games · AI automations. LabyrAInth on Steam." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://piemh.github.io/interactiveportfolio/" />
+  <meta property="og:image" content="https://piemh.github.io/interactiveportfolio/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="preconnect" href="https://i.ytimg.com" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/src/fonts/orbitron-latin-900-normal.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/src/fonts/orbitron-latin-700-normal.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/src/fonts/roboto-latin-300-normal.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/src/fonts/roboto-latin-400-normal.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/src/fonts/roboto-latin-500-normal.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/src/fonts/roboto-mono-latin-400-normal.woff2" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <a class="skip" href="#sec-hero" data-i18n="ui.skip">Skip to content</a>
+  <div class="bg" aria-hidden="true">
+    <div class="px px-far" data-parallax="0.03"></div>
+    <div class="px px-mid" data-parallax="0.08"></div>
+    <div class="px px-near" data-parallax="0.16"></div>
+    <div class="bg-stars" id="stars"></div>
+    <div class="shooting sh1"></div>
+    <div class="shooting sh2"></div>
+    <div class="shooting sh3"></div>
+  </div>
+
+  <header class="hud">
+    <span class="wordmark"><span class="wm-dot"></span>PIETRO DONDI</span>
+    <div class="hud-right">
+      <button type="button" class="sound" id="soundBtn"><span class="snd-dot" id="sndDot"></span><span id="sndLabel"></span></button>
+      <div class="lang-group" id="langGroup" role="group"></div>
+    </div>
+  </header>
+
+  <nav class="rail" id="rail" aria-label="Sections"></nav>
+  <nav class="bottombar" id="bottombar" aria-label="Sections"></nav>
+
+  <main>
+    <section class="sec sec-hero" id="sec-hero">
+      <div class="aura aura-hero" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eb-rule"></span><span data-i18n="cd.eyebrow.hero">LEVEL 0 · START</span></p>
+          <h1 class="hero-name">PIETRO<br />DONDI</h1>
+          <p class="hero-sub" data-i18n="hero.subtitle">Game Developer &amp; Full-Time Dreamer</p>
+          <p class="hero-intro" data-i18n="hero.description">Crafting immersive experiences with Unreal Engine 5, VR/AR magic, and endless creativity. Welcome to my interactive web portfolio.</p>
+          <div class="cue-row">
+            <span class="cue-line" aria-hidden="true"></span>
+            <a class="cue-link" href="#sec-about" data-i18n="hero.cue">Discover more about me</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img class="hero-photo" src="/src/hero/hero-720.webp" alt="Pietro Dondi" width="720" height="904" fetchpriority="high" />
+          <div class="hero-glow" aria-hidden="true"></div>
+          <span class="photo-badge" data-i18n="cd.badge">ROMA · IT</span>
+        </div>
+      </div>
+      <div class="grid-horizon gh-cyan" aria-hidden="true"></div>
+    </section>
+
+    <section class="sec sec-about" id="sec-about">
+      <div class="aura aura-about" aria-hidden="true"></div>
+      <div class="about-inner">
+        <p class="eyebrow center"><span class="eb-rule"></span><span data-i18n="cd.eyebrow.about">LEVEL 1 · ABOUT</span></p>
+        <h2 class="h2" data-i18n="cd.h2.about">WHO IS BEHIND THE SCREEN</h2>
+        <span class="divider" aria-hidden="true"></span>
+        <div class="about-grid">
+          <p data-i18n="about.p1">I'm a passionate, curious, and open-minded developer currently working at Ringmaster Reply as a Game Developer and Software Engineer.</p>
+          <p data-i18n="about.p2">I have a Bachelor's Degree in Computer Science Engineering from the University of Rome "Sapienza", where I specialized in Software Engineering and Game Development.</p>
+          <p data-i18n="about.p3">I love games in general, from social ones, to table-top games to video games. Also, passionate about technology, physics, maths, cars, motorsport, and nature.</p>
+          <p data-i18n="about.p4">Currently leading the development of Labyrinth, a game that I invented, and I am directing with a team of twelve game developers. We released this game on Steam the 31st of October 2025.</p>
+        </div>
+        <span class="release-chip" data-i18n="cd.releaseChip">LABYRAINTH · STEAM · OCT 31 2025</span>
+      </div>
+    </section>
+
+    <section class="sec sec-projects" id="sec-projects">
+      <div class="aura aura-projects" aria-hidden="true"></div>
+      <div class="proj-head">
+        <p class="eyebrow"><span class="eb-rule"></span><span data-i18n="cd.eyebrow.projects">LEVEL 2 · PROJECTS</span></p>
+        <h2 class="h2" data-i18n="cd.h2.projects">THINGS I HAVE BUILT</h2>
+        <p class="lede" data-i18n="cd.projectsLede">Open a card for the full description, screenshots, clips and trailers.</p>
+      </div>
+      <div id="featuredHost"></div>
+      <div class="proj-grid" id="gridHost"></div>
+    </section>
+
+    <section class="sec sec-skills" id="sec-skills">
+      <div class="aura aura-skills" aria-hidden="true"></div>
+      <div class="skills-inner">
+        <p class="eyebrow center"><span class="eb-rule"></span><span data-i18n="cd.eyebrow.skills">LEVEL 3 · SKILLS</span></p>
+        <h2 class="h2" data-i18n="cd.h2.skills">STAT SHEET</h2>
+        <span class="divider" aria-hidden="true"></span>
+        <div class="stat-grid" id="skillsHost"></div>
+      </div>
+    </section>
+
+    <section class="sec sec-contact" id="sec-contact">
+      <div class="aura aura-boss" aria-hidden="true"></div>
+      <div class="boss-head">
+        <p class="eyebrow boss-eb"><span class="eb-rule"></span><span data-i18n="cd.eyebrow.contact">LEVEL 4 · BOSS BATTLE</span></p>
+        <h2 class="h2" data-i18n="cd.h2.contact">GET IN TOUCH</h2>
+        <p class="lede" data-i18n="contact.pitch">Shoot the following buttons to get in touch with me, deplete this health bar! Contact me if you are looking to hire a game developer, or if you want to collaborate on a project, or if you just want to chat!</p>
+      </div>
+      <div class="boss-panel">
+        <div class="boss-top">
+          <div class="boss-meta">
+            <p class="boss-name" data-i18n="cd.boss.name">BOSS · UNREACHABLE DEVELOPER</p>
+            <p class="boss-status" id="bossStatus" aria-live="polite"></p>
+          </div>
+          <p class="hp-read" id="hpRead" aria-live="polite">100/100</p>
+        </div>
+        <div class="hp-track"><div class="hp-fill" id="hpFill"></div></div>
+        <div class="channels" id="channelsHost"></div>
+        <div class="victory" id="victory" role="status" hidden><span class="v-dot"></span><span data-i18n="cd.boss.victory">VICTORY — YOU FOUND EVERY WAY TO REACH ME</span></div>
+        <div class="boss-foot">
+          <span data-i18n="cd.footer.left">PIETRO DONDI · ROMA</span>
+          <span data-i18n="cd.footer.right">GAME DEVELOPER &amp; FULL-TIME DREAMER</span>
+        </div>
+      </div>
+      <div class="grid-horizon gh-magenta" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span>© <span id="year"></span> Pietro Dondi</span> · <a href="https://github.com/PieMH" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/pietro-dondi-53a437202/" target="_blank" rel="noopener">LinkedIn</a> · <span data-i18n="footer.credits">Hand-built with TypeScript · No cookies, no tracking</span></p>
+  </footer>
+
+  <div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-panel">
+      <div class="modal-head">
+        <span class="mh-label" data-i18n="cd.modal.header">PROJECT FILE</span>
+        <button type="button" class="mh-close" data-modal-close data-i18n="cd.modal.close">CLOSE ×</button>
+      </div>
+      <div class="modal-body">
+        <div class="stage-col">
+          <div class="stage" id="stage"></div>
+          <div class="thumbs" id="thumbs"></div>
+        </div>
+        <div class="detail-col">
+          <h3 class="modal-title" id="modalTitle"></h3>
+          <p class="modal-blurb" id="modalBlurb"></p>
+          <div class="modal-desc" id="modalDesc"></div>
+          <div class="modal-tags" id="modalTags"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Browser-based 3D game, concept art">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g fill="none" stroke="#2a4c56" stroke-width="1.5">
+    <rect x="70" y="60" width="660" height="380" rx="14"/>
+    <line x1="70" y1="112" x2="730" y2="112"/>
+    <circle cx="104" cy="86" r="6"/><circle cx="128" cy="86" r="6"/><circle cx="152" cy="86" r="6"/>
+    <rect x="190" y="74" width="430" height="24" rx="12"/>
+  </g>
+  <g fill="none" stroke="#71efff" stroke-width="2" filter="url(#glow)">
+    <path d="M330 220 L400 180 L470 220 L470 300 L400 340 L330 300 Z"/>
+    <path d="M330 220 L400 260 L470 220 M400 260 L400 340"/>
+    <ellipse cx="400" cy="262" rx="150" ry="46" transform="rotate(-14 400 262)" stroke-dasharray="5 7" stroke-width="1.5"/>
+    <circle cx="527" cy="212" r="6" fill="#71efff"/>
+  </g>
+  <g fill="none" stroke="#71efff" stroke-width="1.5" opacity="0.75">
+    <path d="M560 330 l0 24 l9 -7 l6 13 l7 -4 l-6 -12 l11 -1 Z"/>
+  </g>
+  <g font-family="monospace" font-size="15" fill="#5f8f9c">
+    <text x="96" y="416">&lt;canvas&gt; three.js · playcanvas · tween.js</text>
+    <text x="620" y="416" fill="#71efff">60 fps</text>
+  </g>
+</svg>
