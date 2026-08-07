@@ -6,3 +6,8 @@
 *.iml
 out
 gen
+
+# Claude demo builds — never committed (picked winner gets integrated properly)
+variants/
+node_modules/
+dist/
